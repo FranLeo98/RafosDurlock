@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>DURLOC</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      body{overflow-x: hidden;}
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid">
+     <!--FILA DE LA PARTE SUPERIOR DE LA PAGINA-->
+      <div class="row bg-dark">
+        <div class="col-4">
+          <div class="media" id="imagen">
+            <img src="media/durlock.jpg" class="img-fluid my-1 d-none d-md-block" style="height: 70px; width: 70px;">
+            <div class="media-body">
+              <h5 class="mt-2 ml-3 text-white font-weight-bold">RAFOS <br/>DURLOCK</h5>
+            </div>           
+          </div>
+        </div>
+        <div class="col-8">
+          <nav class="navbar navbar-expand-lg d-block d-lg-none text-center mt-2 text-justify">
+            <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span><i class="mx-auto pr-5" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">OPCIONES</i>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+              <div class="navbar-nav text-warning">
+                <a class="nav-item nav-link mt-1 text-warning" href="#"><h5>INICIO</h5></a>
+                <a class="nav-item nav-link mt-1 text-warning" href="#bio"><h5>BIOGRAFIA</h5></a>
+                <a class="nav-item nav-link mt-1 text-warning" href="#exp"><h5>EXPERIENCIA</h5></a>
+                <a class="nav-item nav-link mt-1 text-warning" href="#cont"><h5>CONTACTO</h5></a>
+              </div>
+            </div>
+          </nav> 
+          <div class="navbar" id="navega">
+             <form class="form-inline mt-1 d-none d-lg-block text-center">
+              <button class="btn btn-outline-warning" href="#"><h5>INICIO</h5></button>
+              <button class="btn btn-outline-warning ml-3" href="#bio"><h5>BIOGRAFIA</h5></button>
+              <button class="btn btn-outline-warning ml-3" href="#exp"><h5>EXPERIENCIA</h5></button>
+              <button class="btn btn-outline-warning ml-3" href="#cont"><h5>CONTACTO</h5></button>
+             </form>
+          </div>   
+        </div>
+      </div>
+      <!--FILA DE CONTENIDO DE LA PAGINA-->
+        <!--ESPACIO DE DESCRIPCION DE LOS TRABAJOS POR HACER-->
+      <div class="row bg-warning" id="bio">
+        <div class="col">
+          <h2 class="text-center font-weight-bold mt-3">QUE HACEMOS EN RAFOS DURLOCK?</h2>
+          <h5 class="text-justify mt-2">
+            Me especializo en múltiples trabajos utilizando Durlock y armado de estructuras
+            en el sistema de construcción en seco, tales como:
+          </h5>
+          <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item text-warning bg-dark">Diseño y fabricación de muebles</li>
+            <li class="list-group-item text-warning bg-dark">Diseño y fabricación de tabiques y paredes internas</li>
+            <li class="list-group-item text-warning bg-dark">Instalación de cielorrasos con y sin diseño</li>
+          </ul>
+          <h5 class="text-justify mt-4">
+            Además, ofrece cursos para gente interesada en aprender las herramientas
+            básicas utilizadas en el proceso.
+          </h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-warning bg-dark">Curso de construcción en seco (Avalado por la Municipalidad de Palpalá)</li>
+            <li class="list-group-item text-warning bg-dark">Curso de Instalación de iluminación LED</li>
+          </ul>
+        </div>
+      </div>
+        <!--ESPACIO DE MUESTRA DE LOS TRABAJOS ANTERIORES-->
+      <div class="row bg-warning" id="exp">
+        <div class="col">
+          <h2 class="text-center font-weight-bold mt-3">TRABAJOS ANTERIORES</h2>
+          <h5 class="mt-2">Algunos de los trabajos anteriores que realize, sus estados anteriores y actuales.</h5>
+        </div>
+      </div>  
+      <div class="row bg-warning" id="expContent"> 
+        <div class="col-12 col-md-6 col-xl-4">
+          <div id="slider1" class="carousel slide carousel-fade mt-4" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid rounded" style="max-height: 700px;" src="media/durlo1.jpg">
+                <div class="carousel-caption">
+                  <h3>ANTES</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid rounded" style="max-height: 700px;" src="media/durlo2.jpg">
+                <div class="carousel-caption">
+                  <h3>DESPUES</h3>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#slider1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+              <a class="carousel-control-next" href="#slider1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>  
+        </div>
+        <!--<div class="col-12 col-md-6 mt-1">
+          <div id="slider2" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid rounded" style="max-height: 700px;" src="media/shiorincita.jpg">
+                <div class="carousel-caption">
+                  <h3>ANTES</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid rounded" style="max-height: 700px;" src="media/botancita.jpg">
+                <div class="carousel-caption">
+                  <h3>DESPUES</h3>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#slider2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+              <a class="carousel-control-next" href="#slider2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>  
+        </div>-->
+      </div>
+        <!--ESPACIO DE MUESTRA DE LAS FORMAS DE CONTACTO-->
+      <div class="row bg-warning" id="cont">
+        <div class="col-12">
+          <h2 class="text-center font-weight-bold mt-3">FORMAS DE CONTACTARME</h2>
+          <h5>Para contactarme sobre trabajo, armado de presupuesto y/o cursos que brindo pueden contactarme en:</h5>
+        </div>
+      </div>
+      <div class="row bg-warning" id="contIcon">    
+          <div class="col-12 col-lg-6 mt-3 mb-3  text-center">
+            <h4><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 33px; font-weight: 600;">  388-4887163</i> 
+            <!--<p class="ml-3" style="display: inline; font-weight: 600; font-size: 30px;">388-4887163</p></h4>-->
+          </div>
+          <div class="col-12 col-lg-6 mt-3 mb-3  text-center text-lg-left">
+            <h4><i class="fa fa-envelope" aria-hidden="true" style="font-size: 33px; font-weight: 600;">  rafosdurlock@gmail.com</i>
+           <!--<p class="ml-3" style="display: inline; font-weight: 600; font-size: 30px;">rafosdurlock@gmail.com</p></h4>-->
+          </div>
+      </div>
+      
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
