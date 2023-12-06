@@ -6,7 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
-      body{overflow-x: hidden;}
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,8 +44,8 @@
              <form class="form-inline mt-1 d-none d-lg-block text-center">
               <button class="btn btn-outline-warning"  onclick="location.href='#'"><h5>INICIO</h5></button>
               <button class="btn btn-outline-warning ml-3"  onclick="location.href='#bio'"><h5>BIOGRAFIA</h5></button>
-              <button class="btn btn-outline-warning ml-3" href="#exp"><h5>EXPERIENCIA</h5></button>
-              <button class="btn btn-outline-warning ml-3" href="#cont"><h5>CONTACTO</h5></button>
+              <button class="btn btn-outline-warning ml-3" onclick="location.href='#exp'"><h5>EXPERIENCIA</h5></button>
+              <button class="btn btn-outline-warning ml-3" onclick="location.href='#cont'"><h5>CONTACTO</h5></button>
              </form>
           </div>   
         </div>
@@ -59,7 +61,9 @@
           </h4>
           <ul class="list-group list-group-flush mt-3">
             <li class="list-group-item text-warning bg-dark"><h3 class="font-weight-bold text-sm-center text-justify">Diseño y fabricación de muebles</h3></li>
+            <span class="border border-bottom border-warning"></span>
             <li class="list-group-item text-warning bg-dark"><h3 class="font-weight-bold text-sm-center text-justify">Diseño y fabricación de tabiques y paredes internas</h3></li>
+            <span class="border border-bottom border-warning"></span>
             <li class="list-group-item text-warning bg-dark"><h3 class="font-weight-bold text-sm-center text-justify">Instalación de cielorrasos con y sin diseño</h3></li>
           </ul>
           <h4 class="text-justify text-md-center mt-4">
@@ -68,6 +72,7 @@
           </h4>
           <ul class="list-group list-group-flush mt-3 mb-5">
             <li class="list-group-item text-warning bg-dark"><h3 class="font-weight-bold text-sm-center text-justify">Curso de construcción en seco (Avalado por la Municipalidad de Palpalá)</h3></li>
+            <span class="border border-bottom border-warning"></span>
             <li class="list-group-item text-warning bg-dark"><h3 class="font-weight-bold text-sm-center text-justify">Curso de Instalación de iluminación LED</h3></li>
           </ul>
         </div>
@@ -138,7 +143,7 @@
       </div>
       <div class="row bg-warning" id="contIcon">    
           <div class="col-12 col-lg-6 mt-3 mb-3  text-center">
-            <a href="https://wa.me/543885887163" target="_blank" class="text-dark"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 33px; font-weight: 600;">  388-5887163</i></a>
+            <a href="https://wa.me/543885887163" target="_blank" class="text-dark"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 33px; font-weight: 600;">  <u>388-5887163</u></i></a>
             <!--<p class="ml-3" style="display: inline; font-weight: 600; font-size: 30px;">388-4887163</p></h4>-->
           </div>
           <div class="col-12 col-lg-6 mt-3 mb-3  text-center text-lg-left">
