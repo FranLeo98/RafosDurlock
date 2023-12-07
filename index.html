@@ -87,19 +87,19 @@
         </div>
       </div>  
       <div class="row bg-dark" id="expContent"> 
-        <div class="col-12 col-md-6 col-xl-4">
+        <div class="col-md-12 col-lg-6">
           <div id="slider1" class="carousel slide carousel-fade mt-4 mb-3" data-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner text-lg-center">
               <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid rounded" style="max-height: 700px;" src="media/durlo1.jpg">
+                <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo1.jpg">
                 <div class="carousel-caption">
-                  <h3>ANTES</h3>
+                  <h3 class="display-4 font-weight-bold">ANTES</h3>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100 img-fluid rounded" style="max-height: 700px;" src="media/durlo2.jpg">
+                <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo2.jpg">
                 <div class="carousel-caption">
-                  <h3>DESPUES</h3>
+                  <h3 class="display-4 font-weight-bold">DESPUES</h3>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#slider1" role="button" data-slide="prev">
@@ -111,19 +111,19 @@
             </div>
           </div>  
         </div>
-        <!--<div class="col-12 col-md-6 mt-1">
-          <div id="slider2" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
+        <div class="col-md-12 col-lg-6">
+          <div id="slider2" class="carousel slide carousel-fade mt-4 mb-3" data-ride="carousel">
+            <div class="carousel-inner text-lg-center">
               <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid rounded" style="max-height: 700px;" src="media/shiorincita.jpg">
+                <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 700px; max-width: 500px;" src="media/durloAntes.jpg">
                 <div class="carousel-caption">
-                  <h3>ANTES</h3>
+                  <h3 class="display-4 font-weight-bold">ANTES</h3>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100 img-fluid rounded" style="max-height: 700px;" src="media/botancita.jpg">
+                <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 700px; max-width: 500px;" src="media/durloDespues.jpg">
                 <div class="carousel-caption">
-                  <h3>DESPUES</h3>
+                  <h3 class="display-4 font-weight-bold">DESPUES</h3>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#slider2" role="button" data-slide="prev">
@@ -134,8 +134,98 @@
               </a>
             </div>
           </div>  
-        </div>-->
-      </div>
+        </div>
+      </div>  
+        <!--GALERIA DE FOTOS DE TRABAJO Y CURSOS-->
+        <div class="row bg-dark" id="galeria">
+          <div class="col-12 text-center">
+            <h2 class="font-weight-bold mt-4 text-warning text-center">GALERIA DE FOTOS</h2>
+          </div>
+          <div class="col-12 col-md-6">
+            <button type="button" class="btn btn-outline-warning btn-lg btn-block my-3 py-3" data-toggle="modal" data-target="#modalTrabajo">
+              <p class="font-weight-bold display-4">Trabajos</p>
+            </button>
+            <div class="modal fade" id="modalTrabajo" tabindex="-1" role="dialog" aria-labelledby="modTrabTitulo" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-dark border-bottom border-warning">
+                    <h4 class="modal-title text-warning font-weight-bold" id="modTrabTitulo">Fotos de trabajos en general</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true" class="text-warning my-auto">&times;</span></button>
+                  </div>
+                  <div class="modal-body bg-dark">
+                    <div id="sliderModalTrab" class="carousel slide carousel-fade mt-4 mb-3" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/trabajo1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/trabajo2.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/trabajo3.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/trabajo4.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/trabajo5.jpg">
+                        </div>
+                        <a class="carousel-control-prev" href="#sliderModalTrab" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon text-warning" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#sliderModalTrab" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon text-warning" aria-hidden="true"></span>
+                        </a>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <button type="button" class="btn btn-outline-warning btn-lg btn-block my-3 py-3" data-toggle="modal" data-target="#modalCurso">
+              <p class="font-weight-bold display-4">Cursos</p>
+            </button>
+            <div class="modal fade" id="modalCurso" tabindex="-1" role="dialog" aria-labelledby="modCurTitulo" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-dark border-bottom border-warning">
+                    <h4 class="modal-title text-warning font-weight-bold" id="modCurTitulo">Fotos de cursos que brindo</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true" class="text-warning my-auto">&times;</span></button>
+                  </div>
+                  <div class="modal-body bg-dark">
+                    <div id="sliderModalCur" class="carousel slide carousel-fade mt-4 mb-3" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases2.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases3.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases4.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid d-block mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases5.jpg">
+                        </div>
+                        <a class="carousel-control-prev" href="#sliderModalCur" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon text-warning" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#sliderModalCur" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon text-warning" aria-hidden="true"></span>
+                        </a>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>     
         <!--ESPACIO DE MUESTRA DE LAS FORMAS DE CONTACTO-->
       <div class="row bg-warning" id="cont">
         <div class="col-12">
