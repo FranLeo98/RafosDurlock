@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+ @media (max-width: 670px){
+
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        filter: invert(100%);
+    }
+    
+ }
+
+
+#tabs .active {
+    background-color: #ffc107;
+    color: black;
+    border-color: black;
+}
+
+#tabs li a {
+    color: #ffc107;
+    
+}
