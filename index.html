@@ -85,56 +85,176 @@
           <h4 class="text-md-center text-justify mt-3 text-warning">Algunos de los trabajos anteriores que realize, sus estados anteriores y actuales.</h4>
         </div>
       </div>  
-      <div class="row bg-dark" id="expContent"> 
-        <div class="col-md-12 col-lg-6">
-          <div id="slider1" class="carousel slide carousel-fade mt-4 mb-3 p-3" data-ride="carousel">
-            <div class="carousel-inner text-lg-center">
-              <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo1.jpg">
-                <div class="carousel-caption">
-                  <h3 class="display-4 font-weight-bold">ANTES</h3>
+      <!--GALERIA DE TRABAJOS ANTERIORES (Se muestran por separado en pantallas grandes y juntas en un menu en pantallas chicas)-->
+      <div class="d-none d-xl-block" id="exp-carousels">
+        <div class="row bg-dark" id="expCarousel"> 
+          <!--POR SEPARADO-->
+          <div class="col-md-12 col-lg-4">
+            <div id="slider1" class="carousel slide carousel-fade mt-4 mb-3 p-3" data-ride="carousel">
+              <div class="carousel-inner text-lg-center">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo1.jpg">
+                  <div class="carousel-caption">
+                    <h3 class="display-4 font-weight-bold">ANTES</h3>
+                  </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo2.jpg">
-                <div class="carousel-caption">
-                  <h3 class="display-4 font-weight-bold">DESPUES</h3>
+                <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo2.jpg">
+                  <div class="carousel-caption">
+                    <h3 class="display-4 font-weight-bold">DESPUES</h3>
+                  </div>
                 </div>
+                <a class="carousel-control-prev" href="#slider1" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#slider1" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#slider1" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
-              </a>
-              <a class="carousel-control-next" href="#slider1" role="button" data-slide="next">
-                <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
-              </a>
-            </div>
-          </div>  
-        </div>
-        <div class="col-md-12 col-lg-6">
-          <div id="slider2" class="carousel slide carousel-fade mt-4 mb-3 p-3" data-ride="carousel">
-            <div class="carousel-inner text-lg-center">
-              <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 700px; max-width: 500px;" src="media/durloAntes.jpg">
-                <div class="carousel-caption">
-                  <h3 class="display-4 font-weight-bold">ANTES</h3>
+            </div>  
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <div id="slider2" class="carousel slide carousel-fade mt-4 mb-3 p-3" data-ride="carousel">
+              <div class="carousel-inner text-lg-center">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 700px; max-width: 500px;" src="media/durloAntes.jpg">
+                  <div class="carousel-caption">
+                    <h3 class="display-4 font-weight-bold">ANTES</h3>
+                  </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 700px; max-width: 500px;" src="media/durloDespues.jpg">
-                <div class="carousel-caption">
-                  <h3 class="display-4 font-weight-bold">DESPUES</h3>
+                <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 700px; max-width: 500px;" src="media/durloDespues.jpg">
+                  <div class="carousel-caption">
+                    <h3 class="display-4 font-weight-bold">DESPUES</h3>
+                  </div>
                 </div>
+                <a class="carousel-control-prev" href="#slider2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#slider2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#slider2" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
-              </a>
-              <a class="carousel-control-next" href="#slider2" role="button" data-slide="next">
-                <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
-              </a>
-            </div>
-          </div>  
-        </div>
+            </div>  
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <div id="slider3" class="carousel slide carousel-fade mt-4 mb-3 p-3" data-ride="carousel">
+              <div class="carousel-inner text-lg-center">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo3.jpg">
+                  <div class="carousel-caption">
+                    <h3 class="display-4 font-weight-bold">ANTES</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo4.jpg">
+                  <div class="carousel-caption">
+                    <h3 class="display-4 font-weight-bold">DESPUES</h3>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#slider3" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#slider3" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>  
+          </div>
+        </div>  
       </div>  
+      <!--JUNTOS EN UN MENU-->
+      <div class="d-block d-xl-none" id="exp-menu">
+        <div class="row bg-dark" id="expMenu">
+          <div class="col-xl-6 col-lg-7 col-md-8 col-sm-12 mx-auto">
+            <ul class="nav nav-tabs mb-3 bg-dark justify-content-center nav-fill border-bottom border-warning" id="tabsTrabajo">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#fotoT1" role="tab" aria-controls="fotoTrabajo" aria-selected="true">1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#fotoT2" role="tab" aria-controls="fotoCurso" aria-selected="false">2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#fotoT3" role="tab" aria-controls="fotoCurso" aria-selected="false">3</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="galeriaFotos">
+              <div class="tab-pane fade show active" id="fotoT1" role="tabpanel">
+                <div id="sliderT1" class="carousel slide mt-4 mb-3" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo1.jpg">
+                      <div class="carousel-caption">
+                        <h3 class="display-4 font-weight-bold">ANTES</h3>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo2.jpg">
+                      <div class="carousel-caption">
+                        <h3 class="display-4 font-weight-bold">DESPUES</h3>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#sliderT1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#sliderT1" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
+                    </a>
+                  </div>
+                </div>  
+              </div>
+              <div class="tab-pane fade" id="fotoT2" role="tabpanel">
+                <div id="sliderT2" class="carousel slide mt-4 mb-3" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durloAntes.jpg">
+                      <div class="carousel-caption">
+                        <h3 class="display-4 font-weight-bold">ANTES</h3>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durloDespues.jpg">
+                      <div class="carousel-caption">
+                        <h3 class="display-4 font-weight-bold">DESPUES</h3>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#sliderT2" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#sliderT2" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="fotoT3" role="tabpanel">
+                <div id="sliderT3" class="carousel slide mt-4 mb-3" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo3.jpg">
+                      <div class="carousel-caption">
+                        <h3 class="display-4 font-weight-bold">ANTES</h3>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/durlo4.jpg">
+                      <div class="carousel-caption">
+                        <h3 class="display-4 font-weight-bold">DESPUES</h3>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#sliderT3" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#sliderT3" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon p-4" aria-hidden="true"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
         <!--GALERIA DE FOTOS DE TRABAJO Y CURSOS-->
         <div class="row bg-dark" id="galeria">
           <div class="col-12 text-center">
@@ -165,6 +285,12 @@
                     <div class="carousel-item">
                       <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/trabajo5.jpg">
                     </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/trabajo6.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/trabajo7.jpg">
+                    </div>
                     <a class="carousel-control-prev" href="#sliderTrab" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>
                     </a>
@@ -191,6 +317,15 @@
                     </div>
                     <div class="carousel-item">
                       <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases5.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases6.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases7.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid mx-auto rounded" style="max-height: 670px; max-width: 500px;" src="media/clases8.jpg">
                     </div>
                     <a class="carousel-control-prev" href="#sliderCur" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon p-4" aria-hidden="true"></span>

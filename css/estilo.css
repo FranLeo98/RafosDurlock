@@ -20,3 +20,14 @@ html {
     color: #ffc107;
     
 }
+
+#tabsTrabajo .active {
+    background-color: #ffc107;
+    color: black;
+    border-color: black;
+}
+
+#tabsTrabajo li a {
+    color: #ffc107;
+    
+}
